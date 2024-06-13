@@ -2,8 +2,10 @@
   "name": "vanilla-spa",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test:api": "jest ."
+    // "test": "node --experimental-vm-modules node_modules/.bin/jest --coverage",
+    // "start": "node <name_of_mainjs_file>"
   },
   "keywords": [],
   "author": "",
@@ -14,3 +16,8 @@
     "jest": "^29.7.0"
   }
 }
+
+  // "scripts": {
+  //   "test": "node --experimental-vm-modules node_modules/.bin/jest --coverage",
+  //   "start": "node <name_of_mainjs_file>"
+  // },
