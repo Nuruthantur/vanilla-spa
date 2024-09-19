@@ -1,6 +1,4 @@
 import { sum } from "./Dashboard.js";
-// import sum from "./Dashboard.js";
-// const sum = require("./Dashboard.js");
 
 console.log(sum(1, 2));
 
