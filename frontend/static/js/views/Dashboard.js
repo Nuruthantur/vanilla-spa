@@ -1,5 +1,11 @@
 import AbstractView from "./AbstractView.js";
+// const AbstractView = require("./AbstractView.js");
 
+// export default class extends AbstractView {
+//   constructor(params) {
+//     super(params);
+//     this.setTitle("Dashboard");
+//   }
 export default class extends AbstractView {
   constructor(params) {
     super(params);
@@ -8,7 +14,7 @@ export default class extends AbstractView {
 
   async getHtml() {
     return `
-            <h1>Welcome back, Dom</h1>
+            <h1>Welcome back!</h1>
             <p>
                 Fugiat voluptate et nisi Lorem cillum anim sit do eiusmod occaecat irure do. Reprehenderit anim fugiat sint exercitation consequat. Sit anim laborum sit amet Lorem adipisicing ullamco duis. Anim in do magna ea pariatur et.
             </p>
@@ -17,4 +23,10 @@ export default class extends AbstractView {
             </p>
         `;
   }
+}
+console.log("In module: " + (this === undefined));
+
+// test function for testing ^^
+export function sum(a, b) {
+  return a + b;
 }
